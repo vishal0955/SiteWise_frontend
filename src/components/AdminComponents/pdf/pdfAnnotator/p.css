@@ -1,0 +1,15 @@
+.pdf-container {
+  position: relative;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+}
+
+canvas {
+  pointer-events: auto;
+}

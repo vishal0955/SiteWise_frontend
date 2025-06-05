@@ -1,0 +1,196 @@
+        /* Custom styles */
+        .crm-prospects-container {
+            font-family: Arial, sans-serif;
+            padding: 15px;
+        }
+
+        .crm-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .crm-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .crm-header-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .crm-search-panel {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .crm-filter-row {
+            margin-bottom: 10px;
+        }
+
+        .crm-prospect-card {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            background-color: white;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: grab;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .crm-prospect-card:hover {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .crm-prospect-card.dragging {
+            opacity: 0.5;
+            cursor: grabbing;
+        }
+
+        .crm-prospect-name {
+            color: #0d6efd;
+            font-weight: 500;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        .crm-prospect-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .crm-prospect-details {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        .crm-action-btn {
+            border: 1px solid #dee2e6;
+            padding: 2px 8px;
+            border-radius: 4px;
+            background-color: white;
+            font-size: 0.85rem;
+        }
+
+        .crm-heart-btn {
+            color: #dc3545;
+            border: 1px solid #dee2e6;
+            width: 28px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+        }
+
+        .crm-funnel-view {
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            text-align: center;
+            border-radius: 4px;
+        }
+
+        .crm-funnel-header {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .crm-funnel-section {
+            text-align: center;
+            padding: 10px;
+            color: white;
+            margin: 0 auto;
+        }
+
+        .crm-funnel-uncontacted {
+            background-color: #5aa469;
+            width: 90%;
+            clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+        }
+
+        .crm-funnel-contacted {
+            background-color: #87b38d;
+            width: 80%;
+            margin-top: -1px;
+        }
+
+        .crm-funnel-followup {
+            background-color: #9fc0a1;
+            width: 70%;
+            margin-top: -1px;
+        }
+
+        .crm-funnel-booked {
+            background-color: #b7ceb8;
+            width: 60%;
+            margin-top: -1px;
+        }
+
+        .crm-funnel-noshow {
+            background-color: #cfdacf;
+            width: 50%;
+            margin-top: -1px;
+        }
+
+        .crm-funnel-sold {
+            background-color: #e6efe6;
+            color: #28a745;
+            width: 40%;
+            margin-top: -1px;
+        }
+
+        .crm-funnel-didntbuy {
+            background-color: #f0f5f0;
+            color: #6c757d;
+            width: 30%;
+            margin-top: -1px;
+        }
+
+        .crm-hide-link {
+            color: #6c757d;
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-right: 10px;
+        }
+
+        .crm-not-interested {
+            padding: 10px;
+            background-color: #f8f9fa;
+            font-style: italic;
+            color: #6c757d;
+        }
+
+        .kanban-column {
+            min-height: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .kanban-column.drag-over {
+            background-color: rgba(0, 123, 255, 0.1);
+            border-radius: 4px;
+        }
+
+        /* Added styles for drag and drop visual feedback */
+        .drag-over-highlight {
+            border: 2px dashed #0d6efd !important;
+            background-color: rgba(13, 110, 253, 0.05);
+        }
+
+        .stage-counter {
+            display: inline-block;
+            background-color: #f0f0f0;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.8rem;
+            margin-left: 5px;
+        }

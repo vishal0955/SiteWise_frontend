@@ -1,0 +1,320 @@
+.custom-card1 {
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 660px;
+    border-radius: 1%;
+    
+}
+
+[data-theme="dark"] .custom-card1 {
+    background-color: #1f1e1d !important;
+    color: #ffffff !important;
+}
+
+
+.card-title {
+    color: #007bff;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.project-block {
+    margin-bottom: 1.5rem;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-badge {
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 20px;
+}
+
+.status-badge.on-track {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.status-badge.delayed {
+    background-color: #cfe2ff;
+    color: #084298;
+}
+
+.progress-label {
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.custom-progress .progress-bar {
+    background-color: #0d6efd;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.task-block {
+    margin-bottom: 1.5rem;
+}
+
+.custom-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    border: 1px solid #eee;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-header h5 {
+    font-weight: 600;
+    color: #333;
+}
+
+.badge-count {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.item-box {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-code {
+    font-weight: 600;
+    color: #444;
+}
+
+.badge-status {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* Status styles */
+.high {
+    background-color: #ffdddd;
+    color: #d10000;
+}
+
+.medium {
+    background-color: #dbeeff;
+    color: #0066cc;
+}
+
+.low {
+    background-color: #fff4cc;
+    color: #cc9900;
+}
+
+.approved {
+    background-color: #fffbe0;
+    color: #666600;
+}
+
+.pending {
+    background-color: #fce4a3;
+    color: #996600;
+}
+
+.review {
+    background-color: #e0c3fc;
+    color: #6b4faa;
+}
+
+.expired {
+    background-color: #e0e4ff;
+    color: #4f4fff;
+}
+
+.active {
+    background-color: #f6f6f6;
+    color: #444;
+}
+
+.text-muted {
+    font-size: 13px;
+    color: #888;
+}
+
+
+.dashboard-card {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eee;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.left-section,
+.right-section {
+    padding: 10px 20px;
+}
+
+.main-left-card {
+    /* width: 570px; */
+    background-color: white;
+}
+
+.main-right-card {
+    /* width: 570px; */
+}
+
+.project-entry {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.project-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-name {
+    font-weight: 600;
+    color: #444;
+}
+
+.badge-status {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* Example status variants */
+.badge-status.success {
+    background-color: #d4f8d4;
+    color: #2e7d32;
+}
+
+.badge-status.warning {
+    background-color: #fff4cc;
+    color: #cc9900;
+}
+
+.badge-status.danger {
+    background-color: #ffdddd;
+    color: #d10000;
+}
+
+.progress-label {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+.project-progressbar {
+    height: 12px;
+    border-radius: 6px;
+    background-color: #e0e0e0;
+}
+
+.task-entry {
+    margin-bottom: 16px;
+    padding: 12px;
+    background-color: #f5faff;
+    border-radius: 10px;
+}
+
+.task-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.text-muted {
+    font-size: 13px;
+    color: #888;
+}
+
+
+[data-theme="dark"] .main-left-card {
+    background-color: #1f1e1d !important;
+    border-color: #ac9b64 !important;
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .main-right-card {
+    background-color: #1f1e1d !important;
+    border-color: #ac9b64 !important;
+    color: #ffffff !important;
+}
+[data-theme="dark"] .section-title{
+    color: #ffffff !important;
+ 
+}
+
+[data-theme="dark"] .project-entry {
+    background-color: #343332 !important;
+    border-color: #ac9b64 !important;
+    color: #8f8f8f !important;
+}
+
+[data-theme="dark"] .project-name {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .task-entry {
+    background-color: #343332 !important;
+    border-color: #ac9b64 !important;
+    color: #353535 !important;
+}
+[data-theme="dark"] .task-title {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .custom-card1 {
+    background-color: #1f1e1d !important;
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .card-header h5 {
+    color: #ffffff !important;
+}
+[data-theme="dark"] .item-box {
+    background-color: #343332 !important;
+    border-color: #ac9b64 !important;
+    color: #ffffff !important;
+}
+[data-theme="dark"] .item-code {
+    color: #ffffff !important;
+}
+
